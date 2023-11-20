@@ -3,7 +3,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: stretch;
 }
 
 .header,
@@ -50,6 +50,44 @@ li {
     color: #E5E7EB;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtitle {
+    font-size: 36px;
+    font-weight:900;
+    color: #1F2937;
+    margin: 10px 0;
+}
+
+.gallery {
+    margin-bottom: 30px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    width: 250px;
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+    align-items: center;
+}
+
+.description {
+    text-align: center;
+}
+
 .text div{
     font-size: 48px;
     font-weight: 900;
@@ -57,6 +95,21 @@ li {
 
 .phrases {
     background-color: #E5E7EB;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font: 300;
+    color: #1F2937;
+    flex: 1;
+}
+.author {
+    font-weight: 700;
+    text-align: right;
 }
 
 #logo img{
@@ -83,4 +136,25 @@ button {
 
 .signup button{
     border-color: white;
+}
+
+.pic{
+    border: 3px solid blue;
+    border-radius: 20px;
+    height: 200px;
+    width:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pic img {
+    height: 190px;
+    width: 190px;
+    border-radius: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
 }
