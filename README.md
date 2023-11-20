@@ -4,4 +4,4 @@ This project is part of the foundations course of The Odin Project curriculum. T
 
 The project consist in the elaboration of a Landing Page from a design proposed by TOP.
 
-The images used in this project were obtained from ...
+The images used in this project were obtained from the repositories Pexels, Pixabay, and Unsplash.
